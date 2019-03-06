@@ -32,7 +32,7 @@ Steps:
 ## Usage
 
 ```
-usage: main.py [-h] [--config CONFIG] [--project PROJECT]
+usage: circle-tui.py [-h] [--config CONFIG] [--project PROJECT]
                [--build_num BUILD_NUM] [--step STEP] [--non_interactive]
 
 TUI/Log viewer for CircleCI
