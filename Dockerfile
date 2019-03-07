@@ -4,7 +4,8 @@ COPY requirements.txt /app/requirements.txt
 
 RUN pip install -r /app/requirements.txt
 
-COPY *.py circle_tui /app/
+COPY *.py /app/
+COPY circle_tui /app/circle_tui
 
 ENTRYPOINT ["python", "/app/circle-tui.py"]
 CMD ["--help"]
