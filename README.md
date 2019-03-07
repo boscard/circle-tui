@@ -27,7 +27,7 @@ circle-tui requires python 3 and was tested on python 3.6 and 3.7. You might req
 Steps:
 1. Create virtualenv with python 3 using your preferred method, e.g. `mkvirtualenv -p $(which python 3) circle-tui`
 2. Activate virtualenv and install requried packages: `pip install -r requirements.txt`
-3. Run app: `python main.py`
+3. Run app: `python circle-tui.py`
 
 ## Usage
 
